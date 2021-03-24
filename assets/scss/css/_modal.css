@@ -1,0 +1,68 @@
+#modal-templateM .modal-content, #modal-templateS .modal-content {
+  background-color: #03071E;
+  position: relative;
+}
+#modal-templateM .modal-content .modal-header, #modal-templateS .modal-content .modal-header {
+  border: none;
+  padding-bottom: 0;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer, #modal-templateS .modal-content .modal-header .movie-trailer {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer img, #modal-templateM .modal-content .modal-header .movie-trailer iframe, #modal-templateS .modal-content .modal-header .movie-trailer img, #modal-templateS .modal-content .modal-header .movie-trailer iframe {
+  width: 100%;
+  height: 100%;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer .one-content, #modal-templateS .modal-content .modal-header .movie-trailer .one-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: background-color 0.15s ease;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer:hover .one-content, #modal-templateS .modal-content .modal-header .movie-trailer:hover .one-content {
+  opacity: 1;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer:hover .one-content .fa-play:hover, #modal-templateS .modal-content .modal-header .movie-trailer:hover .one-content .fa-play:hover {
+  color: #e6e6e6;
+}
+#modal-templateM .modal-content .modal-header > button, #modal-templateS .modal-content .modal-header > button {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none !important;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: block;
+  font-size: 1.3rem;
+  z-index: 9;
+}
+#modal-templateM .modal-content .modal-body .movie-content-body .mov-title, #modal-templateS .modal-content .modal-body .movie-content-body .mov-title {
+  margin: 0.8rem;
+}
+#modal-templateM .modal-content .modal-body .movie-content-body .btn-mylist, #modal-templateS .modal-content .modal-body .movie-content-body .btn-mylist {
+  right: 0.8rem;
+  top: 0.8rem;
+  position: absolute;
+}
+#modal-templateM .modal-content .modal-body .movie-content-footer .feedback, #modal-templateS .modal-content .modal-body .movie-content-footer .feedback {
+  margin: 0.8rem;
+}
+#modal-templateM .modal-content .modal-body .movie-content-footer .feedback button, #modal-templateS .modal-content .modal-body .movie-content-footer .feedback button {
+  box-shadow: none !important;
+}
+#modal-templateM .modal-content .modal-footer, #modal-templateS .modal-content .modal-footer {
+  justify-content: flex-start !important;
+}
+#modal-templateM .modal-content .modal-footer #more-item .swiper-slide, #modal-templateS .modal-content .modal-footer #more-item .swiper-slide {
+  width: 250px !important;
+}

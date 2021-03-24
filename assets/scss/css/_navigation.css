@@ -1,0 +1,26 @@
+header nav .container-fluid {
+  padding: 0;
+}
+header nav .navbar-brand img {
+  width: 130px;
+  height: auto;
+}
+header nav #headerProfile img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+header nav #notitication {
+  position: relative;
+}
+header nav #notitication .badge {
+  position: absolute;
+  top: 13px;
+  left: 26px;
+  font-size: 10px !important;
+  border-radius: 50%;
+  background-color: #F48C06;
+  padding: 5px;
+  display: block;
+}

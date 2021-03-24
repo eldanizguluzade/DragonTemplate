@@ -1,0 +1,11 @@
+@import "../utils/variables";
+body{
+    background-color: $bcg-dark;
+    color:$color-white;
+    height: 100vh;
+    user-select: none!important;
+}
+a{
+    color:inherit!important;
+    text-decoration: none!important;
+}

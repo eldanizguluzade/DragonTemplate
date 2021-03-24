@@ -1,0 +1,33 @@
+@import "../utils/variables";
+#res-menu {
+    background-color: fade-out($bcg-dark,.2);
+    position: fixed;
+    width: 260px;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 99;
+    ul{
+        list-style:none!important;
+    }
+    ul.navbar-nav{
+        margin:4rem 0;
+      }
+    ul li>img{
+      max-width: 95px;
+      min-width: 75px;
+    }
+    ul li.nav-item{
+        .dropdown-menu{
+            background: none!important;
+        }
+        .card{
+            transition: all .15s ease;
+            &:hover{
+                background-color: $bcg-dark;
+                color: $color-white;
+            }
+        }
+    }
+  }

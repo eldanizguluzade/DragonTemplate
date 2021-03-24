@@ -1,0 +1,15 @@
+nav #search-form {
+  margin-right: 2rem;
+}
+nav #search-form input, nav #search-form span {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid white;
+}
+nav #search-form input:focus, nav #search-form span:focus {
+  box-shadow: none;
+}
+nav #search-form input {
+  padding-right: 0;
+}

@@ -1,0 +1,47 @@
+.btn {
+  box-shadow: none !important;
+}
+
+.toggleActive {
+  transform: rotate(90deg);
+  transition: transform 0.15s ease;
+}
+
+.toggleDeactive {
+  transform: rotate(0deg);
+  transition: transform 0.15s ease;
+}
+
+.active {
+  font-weight: 500 !important;
+}
+
+.navbar-toggler, .dropdown-toggle {
+  font-size: 1.8rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.fas-gold {
+  color: #F48C06;
+}
+
+.button-lg {
+  font-size: 1.2rem;
+  padding: 1.5% 10%;
+}
+
+.button-danger {
+  background-color: #9d0208;
+  color: #fff;
+  transition: background-color 0.15s ease;
+}
+.button-danger:hover {
+  background-color: #b60209;
+  color: #fff;
+}
+
+.btn-link {
+  color: inherit !important;
+  padding: 0 !important;
+}

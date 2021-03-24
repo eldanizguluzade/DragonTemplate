@@ -1,0 +1,20 @@
+@import "../utils/variables";
+
+nav {
+  #search-form {
+    margin-right: 2rem;
+    input,span {
+      background-color: transparent;
+      color: #fff;
+      border: none;
+      border-bottom: 1px solid white;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    input{
+      padding-right: 0;
+    }
+  }
+}
+

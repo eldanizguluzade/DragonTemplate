@@ -1,0 +1,27 @@
+header #notitication .dropdown .dropdown-menu, header #headerProfile .dropdown .dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  left: auto;
+}
+header #notitication .dropdown .dropdown-menu .dropdown-item:focus, header #headerProfile .dropdown .dropdown-menu .dropdown-item:focus {
+  background-color: lightgray;
+}
+header #notitication .dropdown-menu {
+  width: 350px;
+  height: auto;
+}
+header #notitication .dropdown-menu .dropdown-item .card {
+  padding: 10px;
+  transition: all 0.15s ease;
+}
+header #notitication .dropdown-menu .dropdown-item .card:hover {
+  background-color: #03071E;
+  color: #fff;
+}
+header #notitication .dropdown-menu .dropdown-item .card .card-footer {
+  margin-top: 0.5rem;
+}
+header #headerProfile .dropdown-menu .dropdown-item {
+  font-weight: 500;
+}

@@ -1,0 +1,13 @@
+@import "../utils/variables";
+header{
+    background-color: $bcg-light;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: background-color .15s ease;
+}
+.hd-scroll-effect{
+    background-color: transparent;
+}
