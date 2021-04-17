@@ -1,0 +1,37 @@
+@import "../utils/variables";
+#latest,#movies,#series{
+    padding: 20px 2%;
+    h2.category-name{
+      margin-bottom: 20px!important;
+    }
+   ul{
+        list-style: none!important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow:hidden;
+    }
+}
+
+.one-template{
+    position: relative;
+    .one-content{
+        background-color: fade-out(black,.3);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity:0;
+        transition: background-color .15s ease;
+    }
+    &:hover{
+        cursor: pointer;
+        .one-content{
+            opacity:1;
+        }   
+    }
+}

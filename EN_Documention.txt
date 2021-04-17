@@ -1,0 +1,108 @@
+Note: You can examine the example of all Store State Variables in comment blocks.
+
+ ___State____
+* Home Carousel
+- On the Home Page, Trailer knows that it works as Local and Embed code.
+! For local: "trailerUrl" should remain -null. Then just upload the default.mp4 file in assets / videos / directory for your own video selection.
+! For Embed: It is enough to write Video url to "trailerUrl" variable. The rest Funksions will work for you.
+
+* Categories Group
+- Category groups are divided into 2 sections.
+1. Movies
+2. Series
+! For Movies: It will be sufficient to create the category name for the Movies variable and write M in upper case for the rest.
+! For Series: It will be sufficient to write the category name for the Series variable and write the uppercase S for the rest.
+Note: Only Differences between the two should be written as M-S.
+For example:
+Movies: actionM, animationM, dramaM
+Series: actionS, animationS, dramaS
+(For more, we recommend that you review the comment blocks in the Store)
+
+* Latest Items
+- It acts as a repository variable for the last watched movies. If you wish, you can transfer cookies or Mysql (Database) every time a selection is made so that people can access them from different platforms.
+! As a suggestion, Database transfers should be made on Destroy time. It is a stronger platform with less load for the site. A few changes can be made according to the request in order not to give woodcuts from the performance.
+Note: latestMaxCount is set to 8 by default. Each 8-th Film is made to show the last movies by pushing 1 one. It is a design specific structure. All the last movie data remains in Latest_Items. Data is not changed. It continues to work without any problems.
+
+* Selected Item
+- When calling a modal, the data can be transferred to the Selected_Item and can be customized, and at the same time it is advantageous in the Performance part.
+Note: You can review the Selected_Item content as a comment in the Store for the model structure.
+
+* More Item
+- Modal is made with similar movies for example. It does the storage work like other data.
+! More_MovieCount: Default is set to 10. It is good to have 10 movies of similar category as Performance is important in the Modal part.
+Note: Changing the default settings is not recommended otherwise performance problems may occur.
+
+* Notification
+-Receives all alerts over Database.
+Example: Two variables are used as Responsive-Web for the site. In this case, the number of notifications for mobile and the number of displays for the Web can be individually adjusted.
+
+! webNotification: [], // Latest For Web Notification
+! resNotification: [], // Latest For Responsive Notification
+! webMaxCount: 2, // Web Max Notification Count
+! resMaxCount: 1, // Res Max Notification Count
+
+* User
+- In order to provide detailed control within the user, special adjustments can be made for the user.
+Within the Sample User Variable:
+! imgUrl: UserPic
+! mylist: Favorite movies for the user
+! searchlist: Searches made specifically for the user.
+! userActive: User Logins must be set to true / false to be Active or Passiv.
+Note: "Searchlist" can be used to make movie adjustments by learning the tastes of the users from the search data.
+
+* Interface Control Variables
+- It is not recommended to change the Default Settings. Effect checks are possible according to taste.
+Example: If you want the head background to remain constant while the header scrolls down.
+! isHeadEffect: false; you just have to do
+
+* Paths
+- All website urls have been made with the Url structure which is a cross-link. If you want to change the path:
+1. Change the URL of the part you want from the Paths variable.
+2. Change the Page filenames to Run Paths.
+Note: All changes can be checked easily.
+
+* Swiper Option
+-If you want few film columns on the home page, you can easily make appropriate adjustment of all screen dimensions.
+Sample:
+1200: {slidesPerView: 6, spaceBetween: 0},
+768: {slidesPerView: 4, spaceBetween: 0},
+
+
+** Note: All Websit has been made in an Easy Controlled structure. The names of the disks are written in a long structure for clarity and it is recommended.
+
+* Getters Get Path Info
+- Easy way if extra for the request.
+You just need to call "getPathInfo".
+Includes:
+! Selected_path, // Selected item
+! Selected_id, // Selected Item ID
+! Selected_findex, // Selected Item Feedback User-specific Feedback (Example: Like Count, Dislike Count);
+! User_id, // the user's ID
+! User_findex, // The feedback content of the user's selected movie is similar to Selected_findex.
+! feedback_item // Feedback of User-Selected Film in a special structure
+
+* getRedirectUrl
+- This part is the Url creation part of Movies / Series items. It is enough to call "getRedirectUrl". It edits the url structure of the selected movie.
+Note: To edit your own url structure, it will be sufficient to change the urlMap content in getRedirectUrl->.
+
+* Action -> Get Server
+- In this section, tested as FireBase. You can include the database settings according to your request.
+For FireBase Main Server Ursl, find the nuxt.config.js file from the main directory: Axios-> baseUrl: "https://YouDbUrl.com"
+It is enough to write your own url in the specified section.
+
+* Action -> Mail Server
+- You can examine Sample Comment Blocks for Post operations. There is no Active code block for Post operations. Why do additions according to which CMS (Content Management System) you will use. Example Message Function You can view the comment inside.
+
+
+*** Note If your code knowledge is not sufficient, other than these, it is not recommended to change Funfunctions. ***
+
+
+In addition, the structure has been designed in an easy way for you: Changes can be made easily. For this, all areas can be customized easily. Your little code reading / writing skill will be enough for this job.
+- I highly recommend your review.
+
+- If you have any other questions, you can contact us privately or clearly pass me the information on the template sales page for assistance (Thank you for your purchase and we'll be happy to assist you until the road is finished.)
+
+
+*** Important: Movies in any category must be the internal first category name main category name. Otherwise, problems may arise. It has a logically constructed structure. Background codes are working.
+- Example 1: Action Movies -> Jhon Wick [1: 'action', 2: 'xxxxx', 3: 'xxxxx'], Avatar [1: 'action', 2: 'xxxxx', 3: 'xxxxx'] ,
+- Example 2: Animation Movies -> Spirit [1: 'animation', 2: 'xxxxx', 3: 'xxxxx'], Spider-Man: [1: 'animation', 2: 'xxxxx', 3: 'xxxxx' ];

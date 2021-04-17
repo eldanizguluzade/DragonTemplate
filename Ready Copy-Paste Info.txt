@@ -1,0 +1,36 @@
+<p>Dragon Movies- Template It is a Movie and Series Template that can be easily controlled, contains the codes written in the form of clean code for programmers at all levels to understand and make changes.</p>
+
+<h2>Main Features</h2>
+<hr>
+<ul>
+<li>Home Carousel / Local or Embed Url</li>
+<li>Not limited Categories</li>
+<li>Series/Movies Stuructor</li>
+<li>User Only or Public</li>
+<li>All Devices-Full Responsive</li>
+<li>User Only or Public</li>
+<li>Seo Firendly Html Stuructor</li>
+<li>Seo Firendly Path</li>
+<li>Full Easy Control</li>
+<li>Sass/Scss 7-1 pattern</li>
+<li>Like/Dislike</li>
+<li>Imdb Rating</li>
+<li>Trailer Preview</li>
+<li>More Movies/Episodes</li>
+<li>UI Control</li>
+<li>User Only or Public</li>
+<li>Detailed Documentation and more.</li>
+</ul>
+
+<i>You can check the demo for review.Tempalte Vue / Nuxt is made according to the latest version.</i>
+<p><strong>Note: Test was done with Firebase. Demo works as live data with Firebase. You can do your Live Performance Analysis.</strong><p>
+
+<p><i>*Template Demo hosts Sample Movies / Series.</i><p>
+
+
+
+Dragon - Movies Vue Nuxt JS Template
+
+Built With Vue & Nuxt Js and No JQuery
+Reusable Functions and Components 
+Full Control and Easy to Customize

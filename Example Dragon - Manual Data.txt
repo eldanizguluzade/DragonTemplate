@@ -1,0 +1,585 @@
+// Movies: {
+//   actionM: [{
+//       id: 1,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'https://player.vimeo.com/video/81523326',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Godzilla',
+//       description: "Facing the end of civilization when a terrifying plague strikes, a group risks their lives, loves — and humanity — in a brutal struggle to survive.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Godzilla',
+//         writer: 'Godzilla Cameron',
+//         time: '1h 32min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 2,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'https://player.vimeo.com/video/182372307',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Jhon Wick',
+//       description: "Facing the end of civilization when a terrifying plague strikes, a group risks their lives, loves — and humanity — in a brutal struggle to survive.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '3h 2min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 0,
+//           dislike: 1,
+//           mylist: false,
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: false,
+//         }
+//       ]
+//     },
+//     {
+//       id: 3,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'https://player.vimeo.com/video/6206074',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2009',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Avatar',
+//         writer: 'Avatar Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 0,
+//           dislike: 0,
+//           mylist: true,
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true,
+//         }
+//       ]
+//     },
+//     {
+//       id: 4,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 5,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 6,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 7,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: true
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 8,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'M',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true
+//         }
+//       ]
+//     }
+//   ],
+// },
+// Series: {
+//   actionS:[
+//     {
+//       id: 1,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg,
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 1,
+//           dislike: 0,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 2,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'La Casa De Papel',
+//       description: "Facing the end of civilization when a terrifying plague strikes, a group risks their lives, loves — and humanity — in a brutal struggle to survive.",
+//       categories: ['action', 'horor', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'Malik Kamal',
+//         writer: 'Malik Kamal',
+//         time: '40min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//         {
+//           id: 2,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '2.Episodes Avatar 2021',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 0,
+//           dislike: 1,
+//           mylist: false,
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: false,
+//         }
+//       ]
+//     },
+//     {
+//       id: 3,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2009',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'James Avatar',
+//         writer: 'Avatar Cameron',
+//         time: '2h 42min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 0,
+//           dislike: 0,
+//           mylist: true,
+//         },
+//         {
+//           id: 2,
+//           like: 0,
+//           dislike: 1,
+//           mylist: true,
+//         }
+//       ]
+//     },
+//     {
+//       id: 4,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 1,
+//           dislike: 0,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 5,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 1,
+//           dislike: 0,
+//           mylist: true
+//         }
+//       ]
+//     },
+//     {
+//       id: 6,
+//       imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//       fullUrl:'',
+//       trailerUrl:'',
+//       imdbUrl:'',
+//       imdbRating:'',
+//       name: 'Avatar 2012',
+//       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//       categories: ['action', 'fantasy', 'adventure'],
+//       type: 'S',
+//       more: {
+//         director: 'James Cameron',
+//         writer: 'James Cameron',
+//         time: '2h 42min',
+//       },
+//       episodes:[
+//         {
+//           id: 1,
+//           imgUrl: 'https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg',
+//           fullUrl:'',
+//           trailerUrl:'',
+//           name: '1.Episodes Avatar 2020',
+//           description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+//           categories: ['action', 'fantasy', 'adventure'],
+//           type: 'S',
+//           more: {
+//             director: 'James Cameron',
+//             writer: 'James Cameron',
+//             time: '2h 42min',
+//           },
+//         },
+//       ],
+//       feedback: [{
+//           id: 1,
+//           like: 1,
+//           dislike: 0,
+//           mylist: false
+//         },
+//         {
+//           id: 2,
+//           like: 1,
+//           dislike: 0,
+//           mylist: true
+//         }
+//       ]
+//     },
+//   ]
+// },
+
+
+ 
+//  Notification:[
+//   {
+//     id:1,
+//      imgUrl:"https://cdn.cinematerial.com/p/297x/qwctuwuv/bloodshot-indian-movie-poster-md.jpg",
+//      fullUrl:"#",
+//      title:"Bloodshot 2020",
+//      desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+//      isNew:true,
+//      date:{
+//        time:'01:20',
+//        dmy:'06.05.2021'
+//      }        
+//    },
+//     {
+//      id:2,
+//      imgUrl:"https://cdn.cinematerial.com/p/297x/qwctuwuv/bloodshot-indian-movie-poster-md.jpg",
+//      fullUrl:"#",
+//      title:"Bloodshot 2020",
+//      desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+//      isNew:true,
+//      date:{
+//        time:'01:20',
+//        dmy:'06.05.2021'
+//      }        
+//   },
+//   {
+//    id:3,
+//    imgUrl:"https://qph.fs.quoracdn.net/main-qimg-ed3f0e410fe949899bd7047c1b868d3e",
+//    fullUrl:"#",
+//    title:"Card title",
+//    desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",
+//    isNew:true,
+//    date:{
+//      time:'01:20',
+//      dmy:'06.05.2021'
+//    }
+//  }
+// ],

@@ -1,0 +1,39 @@
+main #homeCarousel {
+  background-color: black;
+  margin-bottom: 20px;
+}
+main #homeCarousel .embed-responsive {
+  position: relative;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(to top, #03071E, transparent 50%);
+}
+main #homeCarousel .embed-responsive:hover .bcg-video-local, main #homeCarousel .embed-responsive:hover .bcg-video-iframe {
+  opacity: 0.2;
+  cursor: pointer;
+}
+main #homeCarousel .embed-responsive:hover .content-video {
+  opacity: 1;
+}
+main #homeCarousel .embed-responsive .bcg-video-local {
+  width: 100%;
+  height: auto;
+}
+main #homeCarousel .embed-responsive .bcg-video-iframe {
+  width: 100%;
+  height: 600px;
+}
+main #homeCarousel .embed-responsive .content-video {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+main #homeCarousel .embed-responsive #black-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}

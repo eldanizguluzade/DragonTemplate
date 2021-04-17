@@ -1,0 +1,117 @@
+@import "../utils/variables";
+#modal-templateM,#modal-templateS{
+    .modal-content{
+       background-color: $bcg-dark;
+       position: relative;
+       .modal-header{
+        border:none;
+        padding-bottom: 0;
+        .movie-trailer{
+         background-color: black;   
+         position: relative;
+         width: 100%;
+         height: 100%;
+         iframe{
+             width: 100%;
+             height: 100%;
+         }
+         img{
+            object-fit: none; /* Do not scale the image */
+            object-position: center; /* Center the image within the element */
+            width: 100%;
+            height: 425px;
+            background-color: #fff;
+         }
+         .play-vid-content a{
+            background-color: fade-out(black,.3);
+            font-size: 1.3rem;
+            position: absolute;
+            padding: .7rem 2.1rem;;
+            bottom: 120px;
+            right: 0;
+            opacity: 1;
+            transition: background-color .15s ease;
+            }
+        //  &:hover .play-vid-content a{
+        //       opacity: 1;
+        //       &:hover{
+        //         background-color: fade-out(black,.1);
+        //       }
+        //    }  
+        .play-img-content{
+            background-color: fade-out(black,.3);
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 1;
+            transition: color .15s ease;  
+            }
+          &:hover .play-img-content{          
+                .fas:hover{
+                 color:darken(#fff,5);
+               }
+            }  
+         }
+        &>button{
+            background-color: transparent;
+            color: $color-white;
+            box-shadow: none!important;
+            position: absolute;
+            top:16px;
+            right: 16px;
+            display: block;
+            font-size: 1.3rem;
+            z-index: 9;
+        }
+    }
+    .modal-body{
+        .movie-content-body{
+            .mov-title{
+                margin: .8rem;
+            }
+            .btn-mylist{
+                right: .8rem;
+                top: .8rem;
+                position: absolute;
+            }
+        }
+        .movie-content-footer{
+            .feedback{
+                margin: .8rem;
+              
+             button{
+                 box-shadow: none!important;
+             }
+           }
+        }
+    }
+    .modal-footer{
+        justify-content: flex-start!important;
+         #more-item{
+             .swiper-slide{
+              width: calc(100% / 4);
+             }
+         }
+      }
+    }
+}
+
+#modal-templateS{
+    .modal-content{
+      .modal-footer{
+        #more-item{
+            .one-content{
+                opacity: 1;
+             .start-group{
+                display: none;
+             }
+        }
+      }
+    }
+ }
+}

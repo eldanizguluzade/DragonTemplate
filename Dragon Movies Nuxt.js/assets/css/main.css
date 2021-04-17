@@ -1,0 +1,445 @@
+.btn {
+  box-shadow: none !important;
+}
+
+.toggleActive {
+  transform: rotate(90deg);
+  transition: transform 0.15s ease;
+}
+
+.toggleDeactive {
+  transform: rotate(0deg);
+  transition: transform 0.15s ease;
+}
+
+.active {
+  font-weight: 500 !important;
+}
+
+.navbar-toggler, .dropdown-toggle {
+  font-size: 1.8rem;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.fas-gold {
+  color: #F48C06;
+}
+
+.button-lg {
+  font-size: 1.2rem;
+  padding: 1.5% 10%;
+}
+
+.button-danger {
+  background-color: #9d0208;
+  color: #fff;
+  transition: background-color 0.15s ease;
+}
+.button-danger:hover {
+  background-color: #b60209;
+  color: #fff;
+}
+
+.btn-link {
+  color: inherit !important;
+  padding: 0 !important;
+}
+
+.color-red {
+  color: #D00000 !important;
+}
+
+.color-danger {
+  color: #fc2c34 !important;
+  opacity: 0.8;
+}
+
+span.new-badge {
+  background-color: #F48C06;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: auto;
+  left: auto;
+  right: 0;
+  font-size: 10px;
+  padding: 5px;
+}
+
+.block-disabled, .block-disabled-o {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  user-select: none !important;
+}
+
+.block-disabled-o:hover {
+  background-color: inherit;
+}
+.block-disabled-o:hover::after {
+  content: "Disabled";
+  color: grey;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.disabled {
+  position: relative !important;
+  opacity: 0.5 !important;
+}
+
+.disabled-o {
+  opacity: 0.5 !important;
+}
+.disabled-o:hover {
+  color: transparent !important;
+}
+
+i {
+  position: relative;
+}
+i .badge {
+  position: absolute !important;
+  top: 0px;
+  left: 16px;
+  font-size: 10px;
+  border-radius: 50%;
+  background-color: #F48C06;
+  padding: 5px;
+  display: block !important;
+}
+
+.thumbnail {
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 250px;
+  height: 324px;
+  max-width: 100%;
+}
+
+header #notitication .dropdown .dropdown-menu,
+header #headerProfile .dropdown .dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  left: auto;
+}
+header #notitication .dropdown .dropdown-menu .dropdown-item:focus,
+header #headerProfile .dropdown .dropdown-menu .dropdown-item:focus {
+  background-color: lightgray;
+}
+header #notitication .dropdown-menu {
+  width: 350px;
+  height: auto;
+}
+header #notitication .dropdown-menu .dropdown-item .card {
+  padding: 10px;
+  transition: all 0.15s ease;
+}
+header #notitication .dropdown-menu .dropdown-item .card:hover {
+  background-color: #03071E;
+  color: #fff;
+}
+header #notitication .dropdown-menu .dropdown-item .card img {
+  width: 80px;
+  height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+}
+header #notitication .dropdown-menu .dropdown-item .card .card-footer {
+  margin-top: 0.5rem;
+}
+header #headerProfile .dropdown-menu .dropdown-item {
+  font-weight: 500;
+}
+
+#modal-templateM .modal-content, #modal-templateS .modal-content {
+  background-color: #03071E;
+  position: relative;
+}
+#modal-templateM .modal-content .modal-header, #modal-templateS .modal-content .modal-header {
+  border: none;
+  padding-bottom: 0;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer, #modal-templateS .modal-content .modal-header .movie-trailer {
+  background-color: black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer iframe, #modal-templateS .modal-content .modal-header .movie-trailer iframe {
+  width: 100%;
+  height: 100%;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer img, #modal-templateS .modal-content .modal-header .movie-trailer img {
+  object-fit: none;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 100%;
+  height: 425px;
+  background-color: #fff;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer .play-vid-content a, #modal-templateS .modal-content .modal-header .movie-trailer .play-vid-content a {
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 1.3rem;
+  position: absolute;
+  padding: 0.7rem 2.1rem;
+  bottom: 120px;
+  right: 0;
+  opacity: 1;
+  transition: background-color 0.15s ease;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer .play-img-content, #modal-templateS .modal-content .modal-header .movie-trailer .play-img-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: color 0.15s ease;
+}
+#modal-templateM .modal-content .modal-header .movie-trailer:hover .play-img-content .fas:hover, #modal-templateS .modal-content .modal-header .movie-trailer:hover .play-img-content .fas:hover {
+  color: #f2f2f2;
+}
+#modal-templateM .modal-content .modal-header > button, #modal-templateS .modal-content .modal-header > button {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none !important;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: block;
+  font-size: 1.3rem;
+  z-index: 9;
+}
+#modal-templateM .modal-content .modal-body .movie-content-body .mov-title, #modal-templateS .modal-content .modal-body .movie-content-body .mov-title {
+  margin: 0.8rem;
+}
+#modal-templateM .modal-content .modal-body .movie-content-body .btn-mylist, #modal-templateS .modal-content .modal-body .movie-content-body .btn-mylist {
+  right: 0.8rem;
+  top: 0.8rem;
+  position: absolute;
+}
+#modal-templateM .modal-content .modal-body .movie-content-footer .feedback, #modal-templateS .modal-content .modal-body .movie-content-footer .feedback {
+  margin: 0.8rem;
+}
+#modal-templateM .modal-content .modal-body .movie-content-footer .feedback button, #modal-templateS .modal-content .modal-body .movie-content-footer .feedback button {
+  box-shadow: none !important;
+}
+#modal-templateM .modal-content .modal-footer, #modal-templateS .modal-content .modal-footer {
+  justify-content: flex-start !important;
+}
+#modal-templateM .modal-content .modal-footer #more-item .swiper-slide, #modal-templateS .modal-content .modal-footer #more-item .swiper-slide {
+  width: calc(100% / 4);
+}
+
+#modal-templateS .modal-content .modal-footer #more-item .one-content {
+  opacity: 1;
+}
+#modal-templateS .modal-content .modal-footer #more-item .one-content .start-group {
+  display: none;
+}
+
+nav #search-form {
+  margin-right: 2rem;
+}
+nav #search-form input, nav #search-form span {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid white;
+}
+nav #search-form input:focus, nav #search-form span:focus {
+  box-shadow: none;
+}
+nav #search-form input {
+  padding-right: 0;
+}
+
+header {
+  background-color: #10173D;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: background-color 0.15s linear;
+}
+
+.navbar a:active {
+  background-color: transparent !important;
+}
+
+.hd-scroll-effect {
+  background-color: transparent;
+}
+
+header nav .container-fluid {
+  padding: 0;
+}
+header nav .navbar-brand img {
+  width: 130px;
+  min-width: 100px;
+  height: auto;
+}
+header nav #headerProfile img {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+#res-menu {
+  background-color: rgba(3, 7, 30, 0.8);
+  position: fixed;
+  width: 260px;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 99;
+}
+#res-menu ul {
+  list-style: none !important;
+}
+#res-menu ul.navbar-nav {
+  margin: 4rem 0;
+}
+#res-menu ul li > img {
+  max-width: 95px;
+  min-width: 75px;
+}
+#res-menu ul li.nav-item .dropdown-menu {
+  background: none !important;
+}
+#res-menu ul li.nav-item .card {
+  transition: all 0.15s ease;
+}
+#res-menu ul li.nav-item .card:hover {
+  background-color: #03071E;
+  color: #fff;
+}
+
+#latest, #movies, #series {
+  padding: 20px 2%;
+}
+#latest h2.category-name, #movies h2.category-name, #series h2.category-name {
+  margin-bottom: 20px !important;
+}
+#latest ul, #movies ul, #series ul {
+  list-style: none !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.one-template {
+  position: relative;
+}
+.one-template .one-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: background-color 0.15s ease;
+}
+.one-template:hover {
+  cursor: pointer;
+}
+.one-template:hover .one-content {
+  opacity: 1;
+}
+
+#error-404,
+#error-500 {
+  background-color: #03071E;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#mylist-page, #movies-page, #series-page, #searchlist-page {
+  margin-top: 100px;
+}
+
+main #homeCarousel {
+  background-color: black;
+  margin-bottom: 20px;
+}
+main #homeCarousel .embed-responsive {
+  position: relative;
+  transition: opacity 0.3s ease;
+  background: linear-gradient(to top, #03071E, transparent 50%);
+}
+main #homeCarousel .embed-responsive:hover .bcg-video-local, main #homeCarousel .embed-responsive:hover .bcg-video-iframe {
+  opacity: 0.2;
+  cursor: pointer;
+}
+main #homeCarousel .embed-responsive:hover .content-video {
+  opacity: 1;
+}
+main #homeCarousel .embed-responsive .bcg-video-local {
+  width: 100%;
+  height: auto;
+}
+main #homeCarousel .embed-responsive .bcg-video-iframe {
+  width: 100%;
+  height: 600px;
+}
+main #homeCarousel .embed-responsive .content-video {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+main #homeCarousel .embed-responsive #black-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent !important;
+}
+
+body {
+  background-color: #03071E;
+  color: #fff;
+  height: 100vh;
+  user-select: none !important;
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer;
+}

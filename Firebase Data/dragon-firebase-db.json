@@ -1,0 +1,799 @@
+{
+  "CategoriesGroups" : {
+    "-MWd_gvVE1PmkSN44rm2" : {
+      "Movies" : {
+        "actionM" : [ {
+          "categories" : [ "action", "fantasy", "adventure" ],
+          "description" : "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 3,
+            "like" : 0,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 4,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 5,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : "",
+          "id" : 1,
+          "imdbRating" : 6.4,
+          "imdbUrl" : "tt3741700",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/9/9a/Godzilla_%E2%80%93_King_of_the_Monsters_%282019%29_poster.png",
+          "more" : {
+            "director" : "James Godzilla",
+            "time" : "1h 32min",
+            "writer" : "Godzilla Cameron"
+          },
+          "name" : "Godzilla",
+          "trailerUrl" : "https://player.vimeo.com/video/504462813",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "fantasy", "adventure" ],
+          "description" : "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him.",
+          "feedback" : [ {
+            "dislike" : 1,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : "",
+          "id" : 2,
+          "imdbRating" : 7.4,
+          "imdbUrl" : "tt2911666",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/John_Wick_TeaserPoster.jpg/220px-John_Wick_TeaserPoster.jpg",
+          "more" : {
+            "director" : "James Cameron",
+            "time" : "3h 2min",
+            "writer" : "James Cameron"
+          },
+          "name" : "Jhon Wick",
+          "trailerUrl" : "https://player.vimeo.com/video/182372307",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "adventure", "fantasy" ],
+          "description" : "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 3,
+          "imdbRating" : 7.8,
+          "imdbUrl" : "tt0499549",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg",
+          "more" : {
+            "director" : "James Avatar",
+            "time" : "2h 42min",
+            "writer" : "Avatar Cameron"
+          },
+          "name" : "Avatar (2009)",
+          "trailerUrl" : "https://player.vimeo.com/video/6206074",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "romance", "sci-fi" ],
+          "description" : "After a comet releases a mysterious virus that begins to kill all the women in the world, a young couple hides out in their over-sterilized apartment trying to fight for their lives.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 4,
+          "imdbRating" : 5.1,
+          "imdbUrl" : "tt3984356",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Only_poster.jpg/220px-Only_poster.jpg",
+          "more" : {
+            "director" : "Takashi Doscher",
+            "time" : "1h 38min",
+            "writer" : "Takashi Doscher"
+          },
+          "name" : "Only (2019)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "mystery", "Thriller" ],
+          "description" : "A family's serene beach vacation turns to chaos when their doppelgängers appear and begin to terrorize them.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 5,
+          "imdbRating" : 6.8,
+          "imdbUrl" : "tt6857112",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Us_%282019%29_theatrical_poster.png/220px-Us_%282019%29_theatrical_poster.png",
+          "more" : {
+            "director" : "Jordan Peele",
+            "time" : "1h 56min",
+            "writer" : "Jordan Peele"
+          },
+          "name" : "Us (2019)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "fantasy", "thriller" ],
+          "description" : "An Indian soldier chases after his mentor who has gone rogue following an unexpected kill.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 6,
+          "imdbRating" : 6.5,
+          "imdbUrl" : "tt7430722",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/War_official_poster.jpg/220px-War_official_poster.jpg",
+          "more" : {
+            "director" : "Siddharth Anand",
+            "time" : "2h 34min",
+            "writer" : "Siddharth Anand"
+          },
+          "name" : "War (2019)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "horror ", "thriller" ],
+          "description" : "When Nadja becomes pregnant, they make an attempt to rekindle their relationship by traveling to the north of Sweden for a hiking trip but soon their romantic trip turns into a nightmare.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 7,
+          "imdbRating" : 5.5,
+          "imdbUrl" : "tt11307814",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Red_Dot_film_poster_%28film%29.jpeg/220px-Red_Dot_film_poster_%28film%29.jpeg",
+          "more" : {
+            "director" : "Alain Darborg",
+            "time" : "1h 26min",
+            "writer" : "Per Dickson"
+          },
+          "name" : "Red Dot (2021)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "action", "thriller", "adventure" ],
+          "description" : "The deep dark side of the digital and the social media world.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 8,
+          "imdbRating" : 4.2,
+          "imdbUrl" : "tt11027850",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Hacked_film_poster.jpg/220px-Hacked_film_poster.jpg",
+          "more" : {
+            "director" : "Vikram Bhatt",
+            "time" : "1h 58min",
+            "writer" : "Rhea Anand"
+          },
+          "name" : "Hacked (2020)",
+          "trailerUrl" : "",
+          "type" : "M"
+        } ],
+        "animationM" : [ {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 1,
+          "imdbRating" : 8.1,
+          "imdbUrl" : "tt2948372",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/9/95/Soul_Poster.jpeg",
+          "more" : {
+            "director" : "Pete Docter",
+            "time" : "1h 40min",
+            "writer" : "Pete Docter"
+          },
+          "name" : "Soul (2020)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : " ",
+          "id" : 2,
+          "imdbRating" : 8.2,
+          "imdbUrl" : "tt1049413",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg",
+          "more" : {
+            "director" : "Pete Docter",
+            "time" : "1h 36min",
+            "writer" : "Bob Peterson"
+          },
+          "name" : "Up (2009)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : " ",
+          "id" : 3,
+          "imdbRating" : 8.1,
+          "imdbUrl" : "tt0266543",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+          "more" : {
+            "director" : "Andrew Stanton",
+            "time" : "1h 40min",
+            "writer" : " Andrew Stanton"
+          },
+          "name" : "Finding Nemo",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "action", "adventure" ],
+          "description" : "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : " ",
+          "id" : 4,
+          "imdbRating" : 8.4,
+          "imdbUrl" : "tt4633694",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/b/b8/Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png",
+          "more" : {
+            "director" : "Bob Persichetti",
+            "time" : "1h 57min",
+            "writer" : "Phil Lord"
+          },
+          "name" : "Spider-Man",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "family" ],
+          "description" : "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : " ",
+          "id" : 5,
+          "imdbRating" : 8.4,
+          "imdbUrl" : "tt0910970",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/c/c2/WALL-Eposter.jpg",
+          "more" : {
+            "director" : "Andrew Stanton",
+            "time" : "1h 38min",
+            "writer" : "Pete Docter"
+          },
+          "name" : "WALL·E",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : " ",
+          "id" : 6,
+          "imdbRating" : 7.4,
+          "imdbUrl" : "tt2294629",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/0/05/Frozen_%282013_film%29_poster.jpg",
+          "more" : {
+            "director" : "Chris Buck",
+            "time" : "1h 42min ",
+            "writer" : "Jennifer Lee"
+          },
+          "name" : "Frozen (2013)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "Determined to make her own path in life, Princess Merida (Kelly Macdonald) defies a custom that brings chaos to her kingdom. Granted one wish, Merida must rely on her bravery and her archery skills to undo a beastly curse.",
+          "feedback" : [ {
+            "dislike" : 1,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : " ",
+          "id" : 7,
+          "imdbRating" : 7.1,
+          "imdbUrl" : "tt1217209",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/9/96/Brave_Poster.jpg",
+          "more" : {
+            "director" : "Mark Andrews",
+            "time" : "1h 33min",
+            "writer" : "Brenda Chapman"
+          },
+          "name" : "Brave (2012)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right.",
+          "feedback" : [ {
+            "dislike" : 1,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : " ",
+          "id" : 8,
+          "imdbRating" : 7.6,
+          "imdbUrl" : "tt3521164",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/2/26/Moana_Teaser_Poster.jpg",
+          "more" : {
+            "director" : "Ron Clements",
+            "time" : "1h 47min",
+            "writer" : "Jared Bush"
+          },
+          "name" : "Moana (2016)",
+          "trailerUrl" : "",
+          "type" : "M"
+        }, {
+          "categories" : [ "animation", "adventure", "comedy" ],
+          "description" : "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land. They set out to find the origin of Elsa's powers in order to save their kingdom.",
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : " ",
+          "id" : 9,
+          "imdbRating" : 6.9,
+          "imdbUrl" : "tt4520988",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/4/4f/Frozen_2_poster.jpg",
+          "more" : {
+            "director" : "Chris Buck",
+            "time" : "1h 43min",
+            "writer" : "Jennifer Lee"
+          },
+          "name" : "Frozen 2",
+          "trailerUrl" : "",
+          "type" : "M"
+        } ]
+      },
+      "Series" : {
+        "actionS" : [ {
+          "categories" : [ "action", "fantasy", "adventure" ],
+          "description" : "Two talented disciples of respectable magical clans unit during the cultivation training and through many hardships they are together.",
+          "episodes" : [ {
+            "categories" : [ "action", "adventure", "comedy" ],
+            "description" : "Two talented disciples of respectable magical clans unit during the cultivation training and through many hardships they are together.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Theuntamed.jpg/250px-Theuntamed.jpg",
+            "more" : {
+              "director" : " Zhan Xiao",
+              "time" : "50min",
+              "writer" : "Yibo Wang"
+            },
+            "name" : "1.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 1,
+          "imdbRating" : 8.9,
+          "imdbUrl" : "tt11027850",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Theuntamed.jpg/250px-Theuntamed.jpg",
+          "more" : {
+            "director" : "James Cameron",
+            "time" : "50min",
+            "writer" : "James Cameron"
+          },
+          "name" : "The Untamed",
+          "trailerUrl" : "",
+          "type" : "S"
+        }, {
+          "categories" : [ "action", "mystery", "thriller" ],
+          "description" : "An ordinary man who comes across surprising circumstances that place him in the center of a huge corruption scandal.",
+          "episodes" : [ {
+            "categories" : [ "action", "mystery", "thriller" ],
+            "description" : "An ordinary man who comes across surprising circumstances that place him in the center of a huge corruption scandal.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vagabond_2019.jpg/250px-Vagabond_2019.jpg",
+            "more" : {
+              "director" : "James Cameron",
+              "time" : "2h 42min",
+              "writer" : "James Cameron"
+            },
+            "name" : "1.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          }, {
+            "categories" : [ "action", "fantasy", "adventure" ],
+            "description" : "An ordinary man who comes across surprising circumstances that place him in the center of a huge corruption scandal.",
+            "fullUrl" : "",
+            "id" : 2,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vagabond_2019.jpg/250px-Vagabond_2019.jpg",
+            "more" : {
+              "director" : "James Cameron",
+              "time" : "2h 42min",
+              "writer" : "James Cameron"
+            },
+            "name" : "2.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 1,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : false
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : false
+          } ],
+          "fullUrl" : "",
+          "id" : 2,
+          "imdbRating" : 8.3,
+          "imdbUrl" : "tt8523042",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Vagabond_2019.jpg/250px-Vagabond_2019.jpg",
+          "more" : {
+            "director" : "Lee Seung-gi",
+            "time" : "60min",
+            "writer" : "Bae Suzy"
+          },
+          "name" : "Vagabond",
+          "trailerUrl" : "",
+          "type" : "S"
+        }, {
+          "categories" : [ "action", "drama", "fantasy" ],
+          "description" : "A 'time warping' political mystery drama that tells the story of Seo Jeong In, who becomes connected to reporter Lee Jin Woo from five years in the past through a phone call.",
+          "episodes" : [ {
+            "categories" : [ "action", "drama", "fantasy" ],
+            "description" : "A 'time warping' political mystery drama that tells the story of Seo Jeong In, who becomes connected to reporter Lee Jin Woo from five years in the past through a phone call.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Times_2021.jpg/250px-Times_2021.jpg",
+            "more" : {
+              "director" : "Seo-jin Lee",
+              "time" : "60min",
+              "writer" : "Joo-Young Lee"
+            },
+            "name" : "1.Episode ",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 0,
+            "mylist" : true
+          }, {
+            "dislike" : 1,
+            "id" : 2,
+            "like" : 0,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 3,
+          "imdbRating" : 7.5,
+          "imdbUrl" : "tt13800344",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Times_2021.jpg/250px-Times_2021.jpg",
+          "more" : {
+            "director" : "Seo-jin Lee",
+            "time" : "60 min",
+            "writer" : "Joo-Young Lee"
+          },
+          "name" : "Times",
+          "trailerUrl" : "",
+          "type" : "S"
+        }, {
+          "categories" : [ "action", "crime ", "drama" ],
+          "description" : "Geralt of Rivia, a solitary monster hunter, struggles to find his place in a world where people often prove more wicked than beasts.",
+          "episodes" : [ {
+            "categories" : [ "action", "fantasy", "adventure" ],
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/The_Witcher_Poster.jpg/220px-The_Witcher_Poster.jpg",
+            "more" : {
+              "director" : "James Cameron",
+              "time" : "2h 42min",
+              "writer" : "James Cameron"
+            },
+            "name" : "1.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 4,
+          "imdbRating" : 8.2,
+          "imdbUrl" : "tt5180504",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/The_Witcher_Poster.jpg/220px-The_Witcher_Poster.jpg",
+          "more" : {
+            "director" : "Lauren Schmidt",
+            "time" : "60min",
+            "writer" : "Lauren Schmidt"
+          },
+          "name" : "The Witcher",
+          "trailerUrl" : "",
+          "type" : "S"
+        }, {
+          "categories" : [ "action", "crime", "drama" ],
+          "description" : "After his teenage daughter goes missing, a widowed surgeon begins uncovering dark secrets of the people closest to him",
+          "episodes" : [ {
+            "categories" : [ "action", "fantasy", "adventure" ],
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/e/e7/Safe_%28TV_series%29_poster.jpg",
+            "more" : {
+              "director" : "James Cameron",
+              "time" : "2h 42min",
+              "writer" : "James Cameron"
+            },
+            "name" : "1.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 5,
+          "imdbRating" : 7.3,
+          "imdbUrl" : "tt11905720",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/e/e7/Safe_%28TV_series%29_poster.jpg",
+          "more" : {
+            "director" : "Harlan Coben",
+            "time" : "60min",
+            "writer" : "Harlan Coben"
+          },
+          "name" : "Safe",
+          "trailerUrl" : "",
+          "type" : "S"
+        }, {
+          "categories" : [ "action", "crime", "drama" ],
+          "description" : "Northern Irish police officer DCI Tom Brannick connects a kidnapping with an infamous cold case with enormous personal significance.",
+          "episodes" : [ {
+            "categories" : [ "action", "fantasy", "adventure" ],
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "fullUrl" : "",
+            "id" : 1,
+            "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Bloodlands_2021_DVD.jpeg/250px-Bloodlands_2021_DVD.jpeg",
+            "more" : {
+              "director" : "James Cameron",
+              "time" : "2h 42min",
+              "writer" : "James Cameron"
+            },
+            "name" : "1.Episode",
+            "trailerUrl" : "",
+            "type" : "S"
+          } ],
+          "feedback" : [ {
+            "dislike" : 0,
+            "id" : 1,
+            "like" : 1,
+            "mylist" : false
+          }, {
+            "dislike" : 0,
+            "id" : 2,
+            "like" : 1,
+            "mylist" : true
+          } ],
+          "fullUrl" : "",
+          "id" : 6,
+          "imdbRating" : 6.5,
+          "imdbUrl" : "tt11285548",
+          "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Bloodlands_2021_DVD.jpeg/250px-Bloodlands_2021_DVD.jpeg",
+          "more" : {
+            "director" : " James Nesbitt",
+            "time" : "3h 42min",
+            "writer" : " James Nesbitt"
+          },
+          "name" : "Bloodlands",
+          "trailerUrl" : "",
+          "type" : "S"
+        } ]
+      }
+    }
+  },
+  "HomeCarousel" : {
+    "-MXjZccPZ1XQpyKbtPZB" : {
+      "description" : "The world is beset by the appearance of monstrous creatures, but one of them may be the only one who can save humanity",
+      "fullPath" : "godzilla-action-m1",
+      "fullUrl" : "https://player.vimeo.com/video/504462813",
+      "imgUrl" : "",
+      "name" : "Godzilla (2021)",
+      "trailerUrl" : ""
+    }
+  },
+  "Notification" : {
+    "-MWlDFeT8Bl1f4xhNaij" : [ {
+      "date" : {
+        "dmy" : "06.05.2021",
+        "time" : "01:20"
+      },
+      "desc" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "fullPath" : "avatar-(2009)-action-m3",
+      "id" : 1,
+      "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/4/45/Bloodshot_-_official_film_poster.jpeg",
+      "isNew" : false,
+      "title" : "Bloodshot 2020"
+    }, {
+      "date" : {
+        "dmy" : "06.05.2021",
+        "time" : "01:20"
+      },
+      "desc" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "fullPath" : "jhon-wick-action-m2",
+      "id" : 2,
+      "imgUrl" : "https://upload.wikimedia.org/wikipedia/en/4/45/Bloodshot_-_official_film_poster.jpeg",
+      "isNew" : false,
+      "title" : "Bloodshot 2020"
+    }, {
+      "date" : {
+        "dmy" : "06.05.2021",
+        "time" : "01:20"
+      },
+      "desc" : "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "fullPath" : "the-untamed-action-s1",
+      "id" : 3,
+      "imgUrl" : "https://img03.mgo-images.com/image/thumbnail?id=MSE6418D5B099FE65B92AED28E99574D8C33&ql=70&sizes=150x210",
+      "isNew" : true,
+      "title" : "SuperGirl"
+    } ]
+  }
+}

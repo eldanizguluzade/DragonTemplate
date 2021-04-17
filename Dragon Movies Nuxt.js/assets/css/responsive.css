@@ -1,0 +1,113 @@
+@media (max-width: 575.98px) {
+  html {
+    font-size: 15px;
+  }
+
+  header nav .container-fluid {
+    flex-wrap: nowrap !important;
+  }
+  header nav #search-form {
+    width: 130px;
+  }
+
+  footer .modal-content .modal-header .movie-trailer .play-vid-content a {
+    padding: 0.4rem 1.2rem !important;
+    bottom: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  header nav {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  header nav .container-fluid {
+    background-color: #10173D;
+    z-index: 999;
+    width: 100%;
+    padding: 0.5rem 1.5rem;
+  }
+  header nav .navbar-brand {
+    width: 33%;
+  }
+  header nav .navbar-brand img {
+    margin: 0 !important;
+  }
+  header nav #search-form {
+    margin-right: 0;
+  }
+  header nav .overflow-screen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 98;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  main #homeCarousel .embed-responsive .bcg-video-local {
+    margin-bottom: 20px;
+  }
+  main #homeCarousel .embed-responsive .content-video {
+    text-align: center;
+    width: 100%;
+    left: 0;
+    padding: 0 10px;
+    bottom: -20px !important;
+  }
+  main #mylist-page, main #movies-page, main #series-page, main #searchlist-page {
+    margin-top: 80px;
+  }
+
+  .controls .swiper-button-next::after,
+.controls .swiper-button-prev::after {
+    font-size: 2rem !important;
+  }
+
+  .modal-content .modal-header img {
+    height: 325px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  header nav .navbar-brand img {
+    margin-left: 0 !important;
+  }
+  header nav #web-menu > ul {
+    display: row;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 310px;
+  }
+  header nav #web-menu > ul li {
+    width: 40%;
+  }
+  header.hd-scroll-effect {
+    background-color: #10173D;
+  }
+
+  main .one-template:hover .one-content {
+    display: none;
+  }
+  main #homeCarousel .embed-responsive .bcg-video-iframe {
+    height: 270px;
+  }
+  main #homeCarousel .embed-responsive .content-video {
+    bottom: 20px;
+  }
+  main #home {
+    margin-top: 60px;
+  }
+
+  footer .modal-content .modal-header .movie-trailer .play-vid-content a {
+    bottom: 60px !important;
+    opacity: 1 !important;
+  }
+  footer .modal-content .modal-footer #more-item .swiper-slide {
+    width: calc(100% / 2) !important;
+  }
+}
+@media (max-width: 1199.98px) {
+  main #homeCarousel .embed-responsive .content-video {
+    bottom: 10px;
+  }
+}

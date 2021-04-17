@@ -1,0 +1,107 @@
+Not: Tum Store State Degiskenlerinin orneyini comment bloklarinda inceleye bilirsiniz.
+
+ ___State____
+*Home Carousel
+- Ana Sayfada Traileri Local ve Embed kod olarak calisa biliyor.  
+! Local icin: "trailerUrl"-null olarak kalmali.Sonra assets/videos/ dizininde default.mp4 dosyasini kendi video seciminiz icin upload yapmaniz yeterlidir.
+! Embed icin: "trailerUrl" degiskenine Video url-si yazmaniz yeterlidir. Gerisin Funksionlar sizin yerinize calistirir.
+
+*Categories Group
+- Categori grouplari 2 kisma bolunur.
+1. Filmler
+2. Diziler
+! Filmler icin: Movies degiskenine categori ismini olusturarak gerisine buyuk harf ile M yazilmasi yeterli olucaktir.
+! Diziler icin: Diziler degiskenine categori ismini olusturarak gerisine buyuk harf ile S yazilmasi yeterli olucaktir.
+Not: Sadece ikisi arasinda Farklari M-S olarak yazilmasidir.
+Ornek icin: 
+Movies: actionM,animationM,dramaM
+Series:  actionS,animationS,dramaS
+(Daha fazlasi icin Store'de comment bloklarin incelemenizi tavsiye ediyoruz)
+
+*Latest Items
+- Son izlenen filmler icin bir depo degiskeni rolunu yapiyor.Isterseniz istege gore cookies yada kisilere farkli platformlardan ulasa bilmesi icin Mysql(Database) her secim yapildiginda aktara bilirsiniz.
+! Oneri  olarak Database aktarimlari Destroy zamaninda yapilmasi Site icin daha az yuk tasiyarak daha guclu platform olar.Performansdan odunc vermemek icin bir kac degisiklik isteye uygun yapila bilir.
+Not: latestMaxCount Default olarak 8 olarak ayarlanmisdir.Her 8-ci Film filmleri 1 tane iterek sonunculari gostermesi icin yapilmis.Dizayna ozgu yapidir.Tum Son film datalari Latest_Items'da durmaya devam eder.Veriler uzerinde degisiklik yapilmamaktadir.Avantaj olarak Database Aktarimlarda veya tasarim degisikliklerinde Sorunsuz calismaya devam eder.
+
+*Selected Item
+- Modal cagirilarken Veri Selected_Item icine aktarilarak Ozellstirile bilir ayni zamanda Performans kisminda avantajli olmus oluyor.
+Not: Model yapisi icin Store icinde Selected_Item icerigini comment olarak inceleye bilirsiniz.
+
+*More Item
+- Modal icinde benzer filmler orneyi ile yapilmistir.Diger veriler gibi Depolama isini yapar.
+!More_MovieCount: Default 10 olarak ayarlanmistir.Modal kisminda Performans onemli oldugundan 10 tane benzer categori film olmasi iyidir.
+Not: Default ayarlar Degistirilmesi onerilmez aksi takdirde performans sorunlari yasana bilir.
+
+*Notification
+-Database uzerinden Tum uyarilari alir.
+Ornek:Site icin Responsive-Web olarak iki degisken kullaniliyor bu oldugu takdirde mobile ozel notification gosterim sayi ayni zamanda Web icin gosterim saylari ozel olarak ayarlana bilir.
+
+!webNotification:[], //Latest For Web Notification
+!resNotification:[],  //Latest For Responsive Notification
+!webMaxCount:2,     // Web Max  Notification Count
+!resMaxCount:1,    // Res Max  Notification Count 
+
+*User
+- User dahilinde Detayli kontrol saglanmasi amaci ile kullaniciya ozel ayarlamalar yapila bilmektedir.
+Ornek User Degiskeni Dahilinde: 
+!imgUrl:Kullanici Resmi
+!mylist: Kullaniciya ozel favori filmler
+!searchlist: Kullaniciya ozel yapilan aramalar.
+!userActive: Kullanici Girisleri Aktiv yada Passiv olmasi icin true/false olarak ayarlanma yapilmali.
+Not: "searchlist" arama verilerinden kullanicilarin zevklerini ogrenerek film ayarlanmalari yapilmasi icin kullanila bilir.
+
+* Arayuz Kontrol Degiskenleri
+- Default Ayarlan degistirilmesi onerilmez.Zevke uygun olarak  Effect kontrollari yapilmasi mumkun.
+Ornek: Header asagi scroll olurken head background sabit kalmasin istiyorsaniz 
+!isHeadEffect: false; yapmaniz yeterli
+
+*Paths
+- Tum website urlleri arakaslik olan Url yapisi ile yapilmis.Path degisikligi yapmak isterseniz:
+1.Paths degiskeninden Istediginiz kismin urlsi degistirin.
+2.Paths Calismasi icin Page dosya isimlerini degistirin.
+Not:Kolay sekilde tum degisknler kontrol edile bilir.
+
+*Swiper Option
+-Ana sayfada kac film column isterseniz tum ekran olculerin uygun ayarlama kolay sekilde yapa bilirsiniz.
+Ornek:
+768: {slidesPerView: 4,spaceBetween: 0},
+
+
+**Not: Tum Websit Kolay Kontrollu yapi seklind yapilmistir.Degiskn isimleri anlasila bilirlik icin uzun yapida yazilmasi Onerilir olarak yapilmistir.
+
+*Getters Get Path Info
+- Kolay sekild isteye yonelik ilave olursa.
+"getPathInfo" cagirmaniz yeterli olucak.
+Dahilinde Bulnanlar:
+!Selected_path, // Secim yapilmis item
+!Selected_id,   //Secim yapilmis Item ID
+!Selected_findex, // Secim yapilmis Item Feedback Kullaniciya ozel Feedback(Example: Like Count,Dislike Count);
+!User_id,          //Kullanicinin ID
+!User_findex,      //Kullanicinin Secim yapilmis filmin Feedback icerigi Selected_findex ile benzer islemi goruyorlar
+!feedback_item     //Kullanici Secim Yapmis Filmin Feedbacki Ozel bir yapida
+
+*getRedirectUrl
+- Bu kisim Movies/Series itemlerinin Url yaratma kismidir."getRedirectUrl" Cagirmaniz yeterlidir.Secim yapilmis filmin Url yapisini Duzenler.
+Not: Kendinizin Url yapisini duzenlemek icin getRedirectUrl-> dailinde urlMap icerigini degistirmeniz yeterli olucaktir.
+
+
+*Action -> Get Server
+- Bu bolumde FireBase olarak test yapilarak yapilmis.Isteginize uygun olan Database ayarlarini Dahil ede bilirsiniz.
+FireBase Ana Server Ursl icin nuxt.config.js dosyasini ana dizinden bularak : Axios->baseUrl:"https://YouDbUrl.com"
+kendi urlnizi belirtilen kisma yazmaniz yeterlidir.
+
+*Action -> Post Server
+- Post islemleri icin Ornek Comment Bloklari inceleye bilirsiniz.Storede Post islemleri icin Aktif kod bloku bulunmamaktadir.Neden olarak Sizin Hangi CMS ( Icerik yonetim sistemi ) kullanacaginiza gore ilaveler yaparak bu isi kendi tarzinizda guvenligi saglamanizdir. Ornek Post Function Comment icinde inceliye bilirsiniz.
+
+
+***Note Bunlar haricinde Kod bilginiz yeterli degilse, Funksiyonlari  degistirmeniz onerilmez.***
+
+
+Ilave olarak Yapi Sizler icin kolay sekilde tasarlanmis: Kolay sekilde degisikler yapila bilir. Bunun icin tum her alan kolay sekilde ozellestirile bilir.Kucuk Bir Kod Okuma/Yazma beceriniz bu is icin yeterli olucak.
+- Incelemenizi Siddetle tavsiye ediyoruz.
+
+--Ilave Sorulariniz olursa Ozelden iletisim kura bilirsiniz veya Acik sekilde template satis sayfasinda Yardim icin bilgileri bana aktara bilirsiniz.(Satin aldiginiz icin Mutluyuz ve Yol bitene kadar size  Yardim etmekden keyf alacagiz.)
+
+*** Önemli: Herhangi bir kategorideki filmler dahili ilk kategori adı ana kategori adı olmalıdır. Aksi takdirde sorunlar ortaya çıkabilir. Mantıksal olarak oluşturulmuş bir yapıya sahiptir. Arka plan kodları çalışıyor.
+- Örnek 1: Aksiyon Filmleri -> Jhon Wick [1: 'eylem', 2: 'xxxxx', 3: 'xxxxx'], Avatar [1: 'eylem', 2: 'xxxxx', 3: 'xxxxx'] ,
+- Örnek 2: Animasyon Filmleri -> Spirit [1: 'animasyon', 2: 'xxxxx', 3: 'xxxxx'], Örümcek Adam: [1: 'animasyon', 2: 'xxxxx', 3: 'xxxxx ']; 

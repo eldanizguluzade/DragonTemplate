@@ -1,0 +1,11 @@
+#error-404,
+#error-500 {
+  background-color: #03071E;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
