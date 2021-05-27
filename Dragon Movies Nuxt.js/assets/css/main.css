@@ -353,6 +353,7 @@ header nav #headerProfile img {
 
 .one-template {
   position: relative;
+  width: fit-content;
 }
 .one-template .one-content {
   background-color: rgba(0, 0, 0, 0.7);
