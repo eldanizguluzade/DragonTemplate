@@ -68,7 +68,7 @@ export default {
   ],
 
   axios: {
-    baseURL: 'https://dragon-movies-default-rtdb.asia-southeast1.firebasedatabase.app/', // Used as fallback if no runtime config is provided
+    baseURL: 'https://dragon-movie1-default-rtdb.asia-southeast1.firebasedatabase.app/', // Used as fallback if no runtime config is provided
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
